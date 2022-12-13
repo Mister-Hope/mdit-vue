@@ -39,8 +39,10 @@
   },
   "dependencies": {
     "@mdit-vue/types": "workspace:*",
+    "@types/js-yaml": "^4.0.5",
     "@types/markdown-it": "^12.2.3",
     "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
     "markdown-it": "^13.0.1"
   },
   "publishConfig": {

@@ -52,13 +52,17 @@ importers:
   packages/plugin-frontmatter:
     specifiers:
       '@mdit-vue/types': workspace:*
+      '@types/js-yaml': ^4.0.5
       '@types/markdown-it': ^12.2.3
       gray-matter: ^4.0.3
+      js-yaml: ^4.1.0
       markdown-it: ^13.0.1
     dependencies:
       '@mdit-vue/types': link:../types
+      '@types/js-yaml': 4.0.5
       '@types/markdown-it': 12.2.3
       gray-matter: 4.0.3
+      js-yaml: 4.1.0
       markdown-it: 13.0.1
 
   packages/plugin-headers:
@@ -1347,6 +1351,10 @@ packages:
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
+
+  /@types/js-yaml/4.0.5:
+    resolution: {integrity: sha512-FhpRzf927MNQdRZP0J5DLIdTXhjLYzeUTmLAu69mnVksLH9CJY3IuSeEgbKUki7GQZm0WqDkGzyxju2EZGD2wA==}
+    dev: false
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
@@ -4346,7 +4354,6 @@ packages:
     hasBin: true
     dependencies:
       argparse: 2.0.1
-    dev: true
 
   /jsesc/2.5.2:
     resolution: {integrity: sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==}
